@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group >
+        <item
+            android:checkable="false"
+            android:title="Username"
+            android:visible="false"
+            android:id="@+id/user_name"/>
+    </group>
+    <group android:checkableBehavior="single" >
+
+        <item android:id="@+id/User_item" android:title="Games" android:icon="@drawable/ic_baseline_games_24"  />
+        <item android:id="@+id/Courses_item" android:title="Recents" android:icon="@drawable/ic_baseline_home_24"  android:checked="true"/>
+        <item android:id="@+id/UpcomingEventsItem" android:title="Favorites" android:icon="@drawable/ic_baseline_star_24"  />
+    </group>
+</menu>
